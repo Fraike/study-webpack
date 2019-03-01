@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",{
+            "targets": {
+                "chrome": "67"
+            },
+            "useBuiltIns": "usage" //缩减polyfill的代码，添加必需
+            }
+        ],
+        "@babel/preset-react"
+    ]
+}
