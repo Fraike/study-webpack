@@ -1,18 +1,18 @@
-async function getComponent() {
-    const {
-        default: _
-    } = await import('lodash')
-    var element = document.createElement('div')
-    element.innerHTML = _.join(['wwt', 'syj'], '-')
-    return element
-}
+// async function getComponent() {
+//     const {
+//         default: _
+//     } = await import('lodash')
+//     var element = document.createElement('div')
+//     element.innerHTML = _.join(['wwt', 'syj'], '-')
+//     return element
+// }
 
-document.addEventListener('click', () => {
+// document.addEventListener('click', () => {
 
-    getComponent().then(element => {
-        document.body.appendChild(element)
-    })
-})
+//     getComponent().then(element => {
+//         document.body.appendChild(element)
+//     })
+// })
 
 // import test from './a.js'
 
@@ -20,3 +20,5 @@ document.addEventListener('click', () => {
 // import _ from 'lodash'
 
 // console.log(_.join(['wwt','syj'],'-'))
+
+import './style.css'
